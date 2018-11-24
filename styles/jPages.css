@@ -1,0 +1,41 @@
+.holder {
+	margin: 15px 0;
+}
+
+.holder a {
+	font-size: 14px;
+	cursor: pointer;
+	padding: 9px 13.5px;
+	background-color: #fff;
+	color: #007bff;
+	border: 0.5px solid rgba(128, 128, 128, 0.2);
+}
+
+.holder a:hover {
+	background-color: #dee2e6;
+	color: #6f42c1;;
+}
+
+.holder a.jp-previous {
+	border-radius: 3px 0 0 3px;
+}
+
+.holder a.jp-next {
+	border-radius: 0 3px 3px 0;
+}
+
+.holder a.jp-current, a.jp-current:hover {
+	background-color: #007bff;
+	color: #fff;
+}
+
+.holder a.jp-disabled, a.jp-disabled:hover {
+	color: #bbb;
+}
+
+.holder a.jp-current, a.jp-current:hover,
+.holder a.jp-disabled, a.jp-disabled:hover {
+	cursor: default; 
+}
+
+.holder span { margin: 0 5px; }
